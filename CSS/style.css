@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+body{
+    background: rgb(78,7,74);
+    background: linear-gradient(180deg, rgba(78,7,74,1) 0%, rgba(54,77,204,1) 100%);
+    color: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.avatar{
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+}
+
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+h2{
+    margin-top: 5px;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+}
+
+.social{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social img{
+    width: 33px;
+}
+
+/*.links-list{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px white;
+    margin: 0 35px;
+    font-size: 28px;
+    text-align: center;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 10px 20px;
+
+}
+.links-list li a{
+    display: block;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(78,7,74);
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+}
+
+.links-list li a span{
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
